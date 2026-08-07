@@ -1,0 +1,10 @@
+name: specialties-service
+port: 8203
+lang: python
+description: "specialties-service \u2014 domain: providers"
+http_deps:
+- providers-service
+- audit-log-service
+publishes:
+- audit.event
+subscribes: []
